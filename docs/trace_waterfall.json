@@ -1,32 +1,10 @@
 [
   {
     "step": 1,
-    "query": "Hãy tra cứu thông tin sinh viên Sv000001",
-    "action_type": "TOOL_EXECUTION",
-    "tool_name": "academic_query",
-    "arguments": {
-      "student_id": "SV2026001"
-    },
-    "observation": {
-      "status": "SUCCESS",
-      "student_id": "SV2026001",
-      "data": {
-        "full_name": "Nguyễn Văn An",
-        "class": "AI-K4",
-        "gpa": 3.85,
-        "email": "an.nv@vinuni.edu.vn",
-        "status": "Đang học",
-        "advisor": "PGS.TS Nguyễn Văn A"
-      }
-    },
-    "latency_ms": 0.0
-  },
-  {
-    "step": 2,
-    "query": "Hãy tra cứu thông tin sinh viên Sv000001",
+    "query": "tôi muốn ăn gà rán",
     "action_type": "FINAL_ANSWER",
-    "thought": "Tổng hợp kết quả từ MCP Server thành công.",
-    "output": "Kết quả tra cứu cho sinh viên SV2026001 (Nguyễn Văn An): Lớp AI-K4, GPA: 3.85, Email: an.nv@vinuni.edu.vn, Trạng thái: Đang học, Cố vấn: PGS.TS Nguyễn Văn A.",
-    "latency_ms": 10.0
+    "thought": "OpenAI phản hồi trực tiếp bằng văn bản (không cần gọi công cụ).",
+    "output": "Có vẻ như bạn đang muốn tìm một nhà hàng gà rán hoặc món ăn cụ thể. Tôi có thể giúp bạn trong việc tìm kiếm thông tin?",
+    "latency_ms": 2511.85
   }
 ]
